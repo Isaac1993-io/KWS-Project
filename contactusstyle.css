@@ -1,0 +1,138 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact-section{
+    background-color: #fff;
+    padding: 130px 20px;
+    ;
+    
+}
+
+.contact-section h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
+
+.contact-form{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+}
+
+.input-group
+{
+    display: flex;
+    gap: 10px;
+}   
+
+.input-group input{
+    flex: 1;
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    height: 100px;
+}
+
+button {background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 20%;
+    height: 50px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.newsletter-form-box{
+    display: flex;
+}
+
+.newsletter-text-box{
+    text-align: left;
+    
+}
+
+.newsletter-section{
+    background-color: #E0FFE3;
+    padding: 40px 120px;
+    margin:auto;
+    border: 1px solid rgba(0, 0, 0, 0.726);
+    display: flex; 
+    gap: 10%;
+}
+
+.newsletter-section h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* paragraph */
+
+p{
+    font-size: 14px;
+    text-align: left;
+    padding-right: 90px;
+}
+.newsletter-form{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 70%;
+}
+
+.newsletter-form input{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.newsletter-form button{
+    background-color: #45a049;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.newsletter-form button:hover{
+    background-color: #22b46b;
+}
+
+@media(max-width: 600px) {
+    .input-group{
+        flex-direction: column;
+    }
+}
+
+.newsletter-form{flex-direction: column;}
+
+.newsletter-form input{
+    width: 100%;
+}
