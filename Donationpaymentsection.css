@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(Pics\pics.png);
+}
+.container {
+    background-image:url(Pics\pics.png);
+    padding-right: 100px;
+    padding-left: 80px;
+    padding-top: 150px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    height: 70%;
+}
+h1 {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="number"] ,input[type="email"]{
+    width: 50%;
+    height: 70%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.payment-methods {
+    margin-top: 10px;
+}
+.donation-button {
+    width: 50%;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.donation-button:hover {
+    background-color: #218838;
+}

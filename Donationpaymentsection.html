@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Church Donation Form</title>
+    <link rel="stylesheet" href="Donationpaymentsection.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Church Donation Form</h1>
+      <form>
+        <label for="first-name">Full Name</label>
+        <input type="text" id="first-name" placeholder="First Name" />
+        <input type="text" id="last-name" placeholder="Last Name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+
+        <label for="donation">Donation</label>
+        <input type="number" id="donation" placeholder="USD" />
+
+        <div class="payment-methods">
+          <label>Payment Methods</label>
+          <input type="radio" name="payment" id="card" /> Debit or Credit Card
+          <br />
+          <input type="radio" name="payment" id="paypal" /> PayPal
+        </div>
+
+        <button type="submit" class="donation-button">Donation</button>
+      </form>
+    </div>
+  </body>
+</html>
